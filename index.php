@@ -13,5 +13,7 @@ $print_user = $_SESSION['user'];
 </head>
 <body>
     <h1>Bienvenido <?php echo $print_user?></h1>
+
+    <a href="<?php session_destroy()?> ./login.php">Cerrar Sesión</a>
 </body>
 </html>
